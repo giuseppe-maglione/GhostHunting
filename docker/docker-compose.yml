@@ -1,0 +1,159 @@
+version: '3.8'
+
+services:
+  # --- ATTACKER NETWORK ---
+  
+  # 1. Attacker (Kali Linux)
+  attacker:
+    image: kalilinux/kali-rolling
+    container_name: attacker
+    hostname: kali-attacker
+    tty: true
+    cap_add:
+      - NET_ADMIN
+    networks:
+      attacker_net:
+        ipv4_address: 10.0.1.10
+    # PERSISTENCE: local folder 'kali_data' mapped on /root
+    volumes:
+      - ./kali_data:/root
+    # ROUTING
+    command: >
+      /bin/bash -c "
+      apt update && apt install -y iputils-ping curl iproute2;
+      ip route del default;
+      ip route add default via 10.0.1.1;
+      /bin/bash"
+
+  # 2. Attacker Router
+  attacker_router:
+    image: nicolaka/netshoot:latest
+    container_name: attacker_router
+    sysctls:
+      - net.ipv4.ip_forward=1
+    cap_add:
+      - NET_ADMIN
+    networks:
+      attacker_net:
+        ipv4_address: 10.0.1.1
+      public_link:
+        ipv4_address: 10.0.100.1
+    command: >
+      /bin/sh -c "
+      ip route add 10.0.2.0/24 via 10.0.100.2;
+      ip route add 10.0.3.0/24 via 10.0.100.2;
+      tail -f /dev/null"
+
+  # --- TARGET NETWORK ---
+
+  # 3. Firewall
+  firewall:
+    image: nicolaka/netshoot:latest
+    container_name: firewall
+    sysctls:
+      - net.ipv4.ip_forward=1
+    cap_add:
+      - NET_ADMIN
+    networks:
+      public_link:
+        ipv4_address: 10.0.100.2
+      internal_backbone:
+        ipv4_address: 10.0.2.1
+    command: >
+      /bin/sh -c "
+      # --- ROUTES CONFIG
+      ip route add 10.0.3.0/24 via 10.0.2.2;
+      ip route add 10.0.1.0/24 via 10.0.100.1;
+      
+      # --- FIREWALL CONFIG
+      iptables -P FORWARD DROP;
+      iptables -A FORWARD -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT;
+      iptables -A FORWARD -p tcp -m multiport --dports 80,443 -j ACCEPT;
+      iptables -A FORWARD -p udp --dport 53 -j ACCEPT;
+      iptables -A FORWARD -p icmp -j ACCEPT;
+      
+      tail -f /dev/null"
+
+  # 4. Internal Router Interno (Target Router)
+  internal_router:
+    image: nicolaka/netshoot:latest
+    container_name: internal_router
+    sysctls:
+      - net.ipv4.ip_forward=1
+    cap_add:
+      - NET_ADMIN
+    networks:
+      internal_backbone:
+        ipv4_address: 10.0.2.2
+      victim_net:
+        ipv4_address: 10.0.3.1
+    command: >
+      /bin/sh -c "
+      ip route add 10.0.1.0/24 via 10.0.2.1;
+      ip route add 10.0.100.0/24 via 10.0.2.1;
+      tail -f /dev/null"
+
+  # 5. IDS (Suricata)
+  ids:
+    image: jasonish/suricata:latest
+    container_name: ids_suricata
+    network_mode: "service:internal_router" # see internal_router traffic
+    cap_add:
+      - NET_ADMIN
+      - SYS_NICE
+    # PERSISTENCE
+    volumes:
+      - ./logs:/var/log/suricata
+      - ./suricata_rules:/var/lib/suricata/rules
+    command: >
+        /bin/sh -c "
+        suricata-update && 
+        suricata -i eth0 -i eth1 -S /var/lib/suricata/rules/suricata.rules -S /var/lib/suricata/rules/local.rules"
+
+  # 6. Victim
+  victim:
+    image: ubuntu:latest
+    container_name: victim
+    hostname: victim-pc
+    tty: true
+    cap_add:
+      - NET_ADMIN
+    networks:
+      victim_net:
+        ipv4_address: 10.0.3.10
+    # DATA PERSISTENCE: downloaded malware remain in 'victim_files' directory
+    volumes:
+      - ./victim_files:/home/ubuntu
+    # ROUTING
+    command: >
+      /bin/bash -c "
+      apt-get update && apt-get install -y iputils-ping curl iproute2;
+      ip route del default;
+      ip route add default via 10.0.3.1;
+      tail -f /dev/null"
+
+networks:
+  attacker_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.1.0/24
+          gateway: 10.0.1.254
+  public_link:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.100.0/24
+          gateway: 10.0.100.254
+  internal_backbone:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.2.0/24
+          gateway: 10.0.2.254
+  victim_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.3.0/24
+          gateway: 10.0.3.254
