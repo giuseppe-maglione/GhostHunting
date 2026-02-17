@@ -5,7 +5,9 @@ services:
   
   # 1. Attacker (Kali Linux)
   attacker:
-    image: kalilinux/kali-rolling
+    # image: kalilinux/kali-rolling
+    # use custom kali image
+    build: .
     container_name: attacker
     hostname: kali-attacker
     tty: true
@@ -20,7 +22,6 @@ services:
     # ROUTING
     command: >
       /bin/bash -c "
-      apt update && apt install -y iputils-ping curl iproute2;
       ip route del default;
       ip route add default via 10.0.1.1;
       /bin/bash"
@@ -74,7 +75,7 @@ services:
       
       tail -f /dev/null"
 
-  # 4. Internal Router Interno (Target Router)
+  # 4. Internal Router (Target Router)
   internal_router:
     image: nicolaka/netshoot:latest
     container_name: internal_router
@@ -101,14 +102,10 @@ services:
     cap_add:
       - NET_ADMIN
       - SYS_NICE
-    # PERSISTENCE
     volumes:
       - ./logs:/var/log/suricata
       - ./suricata_rules:/var/lib/suricata/rules
-    command: >
-        /bin/sh -c "
-        suricata-update && 
-        suricata -i eth0 -i eth1 -S /var/lib/suricata/rules/suricata.rules -S /var/lib/suricata/rules/local.rules"
+    command: -c /etc/suricata/suricata.yaml -i eth0 -S /var/lib/suricata/rules/local.rules
 
   # 6. Victim
   victim:
@@ -121,7 +118,7 @@ services:
     networks:
       victim_net:
         ipv4_address: 10.0.3.10
-    # DATA PERSISTENCE: downloaded malware remain in 'victim_files' directory
+    # DATA PERSISTENCE: downloaded payloads remain in 'victim_files' directory
     volumes:
       - ./victim_files:/home/ubuntu
     # ROUTING
