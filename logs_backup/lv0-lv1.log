@@ -1,0 +1,596 @@
+02/17/2026-15:28:56.773143  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:58484
+02/17/2026-15:28:56.779303  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:58484 -> 10.0.1.10:8080
+02/17/2026-15:28:56.779303  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:58484 -> 10.0.1.10:8080
+02/17/2026-15:28:56.779722  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:58484
+02/17/2026-15:28:56.780939  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:58484
+02/17/2026-15:28:56.781884  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:58484 -> 10.0.1.10:8080
+02/17/2026-15:28:56.781884  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:58484 -> 10.0.1.10:8080
+02/17/2026-15:28:56.791602  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:58484
+02/17/2026-15:28:56.799628  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:58484 -> 10.0.1.10:8080
+02/17/2026-15:28:56.799628  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:58484 -> 10.0.1.10:8080
+02/17/2026-15:28:56.799660  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:58484
+02/17/2026-15:28:56.800527  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:58484 -> 10.0.1.10:8080
+02/17/2026-15:29:25.705653  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:39732
+02/17/2026-15:29:25.711269  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:39732
+02/17/2026-15:29:25.711377  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39732 -> 10.0.1.10:8080
+02/17/2026-15:29:25.711377  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39732 -> 10.0.1.10:8080
+02/17/2026-15:29:25.714281  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:39732
+02/17/2026-15:29:25.717558  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39732 -> 10.0.1.10:8080
+02/17/2026-15:29:25.717558  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39732 -> 10.0.1.10:8080
+02/17/2026-15:29:25.726610  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:39732
+02/17/2026-15:29:25.737241  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:39732
+02/17/2026-15:29:25.740187  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39732 -> 10.0.1.10:8080
+02/17/2026-15:30:01.565929  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39574 -> 10.0.1.10:80
+02/17/2026-15:30:01.593748  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39588
+02/17/2026-16:14:47.271812  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39802 -> 10.0.1.10:80
+02/17/2026-16:14:47.298760  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39810
+02/17/2026-16:47:30.590936  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:51368 -> 10.0.1.10:80
+02/17/2026-16:47:30.605538  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:51382
+02/17/2026-16:52:41.152642  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:37922 -> 10.0.1.10:80
+02/17/2026-16:52:41.179814  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:37926
+02/17/2026-16:53:52.815957  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:52688
+02/17/2026-16:53:52.815957  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:52688
+02/17/2026-16:53:52.815984  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:52688 -> 10.0.1.10:80
+02/17/2026-16:53:52.815988  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:52688 -> 10.0.1.10:80
+02/17/2026-16:53:52.816305  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:52688 -> 10.0.1.10:80
+02/17/2026-16:53:52.819588  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:52688
+02/17/2026-16:53:52.819588  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:52688
+02/17/2026-16:53:52.823757  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:52688
+02/17/2026-16:53:52.823757  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:52688
+02/17/2026-16:53:52.827990  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:52688 -> 10.0.1.10:80
+02/17/2026-16:53:52.891786  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:52688
+02/17/2026-16:53:52.891786  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:52688
+02/17/2026-16:53:52.945413  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:52688 -> 10.0.1.10:80
+02/17/2026-16:53:53.129592  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:52688 -> 10.0.1.10:80
+02/17/2026-16:53:53.129661  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:52688
+02/17/2026-16:54:18.085005  [**] [1:2210054:1] SURICATA STREAM excessive retransmissions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:46156
+02/17/2026-16:59:19.415301  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39480 -> 10.0.1.10:80
+02/17/2026-16:59:19.438251  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39490
+02/17/2026-16:59:49.129443  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:37502
+02/17/2026-16:59:49.129443  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:37502
+02/17/2026-16:59:49.129490  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:37502 -> 10.0.1.10:80
+02/17/2026-16:59:49.129494  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:37502 -> 10.0.1.10:80
+02/17/2026-16:59:49.130638  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:37502
+02/17/2026-16:59:49.130638  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:37502
+02/17/2026-16:59:49.130772  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:37502 -> 10.0.1.10:80
+02/17/2026-16:59:49.140727  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:37502 -> 10.0.1.10:80
+02/17/2026-16:59:49.217341  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:37502 -> 10.0.1.10:80
+02/17/2026-16:59:49.217427  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:37502
+02/17/2026-17:00:24.502999  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:59188
+02/17/2026-17:00:24.502999  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:59188
+02/17/2026-17:00:24.503031  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:59188 -> 10.0.1.10:80
+02/17/2026-17:00:24.503035  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:59188 -> 10.0.1.10:80
+02/17/2026-17:00:24.503452  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:59188 -> 10.0.1.10:80
+02/17/2026-17:00:24.504719  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:59188
+02/17/2026-17:00:24.504719  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:59188
+02/17/2026-17:00:24.515819  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:59188 -> 10.0.1.10:80
+02/17/2026-17:00:24.588513  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:59188 -> 10.0.1.10:80
+02/17/2026-17:00:24.588605  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:59188
+02/17/2026-17:02:14.101609  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50930
+02/17/2026-17:02:14.101609  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50930
+02/17/2026-17:02:14.101634  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:50930 -> 10.0.1.10:80
+02/17/2026-17:02:14.101638  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:50930 -> 10.0.1.10:80
+02/17/2026-17:02:14.102006  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:50930 -> 10.0.1.10:80
+02/17/2026-17:02:14.103043  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50930
+02/17/2026-17:02:14.103043  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50930
+02/17/2026-17:02:14.108548  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:50930 -> 10.0.1.10:80
+02/17/2026-17:02:14.112625  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50930
+02/17/2026-17:02:14.112625  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50930
+02/17/2026-17:02:14.124629  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50930
+02/17/2026-17:02:14.124629  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50930
+02/17/2026-17:02:14.216816  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:50930 -> 10.0.1.10:80
+02/17/2026-17:02:14.216912  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50930
+02/17/2026-17:03:30.177305  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:44562 -> 10.0.1.10:80
+02/17/2026-17:03:30.198497  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:44572
+02/18/2026-15:31:19.401377  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:42438
+02/18/2026-15:55:37.032302  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:36748
+02/18/2026-16:10:37.099011  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50582
+02/18/2026-16:10:37.099011  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50582
+02/18/2026-16:10:37.099024  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:50582 -> 10.0.1.10:80
+02/18/2026-16:10:37.099066  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:50582
+02/18/2026-16:10:37.099095  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:50582 -> 10.0.1.10:80
+02/18/2026-16:10:40.987437  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:49584
+02/18/2026-16:10:40.987437  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:49584
+02/18/2026-16:10:40.987450  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:49584 -> 10.0.1.10:80
+02/18/2026-16:10:40.987503  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:49584
+02/18/2026-16:10:40.987522  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:49584 -> 10.0.1.10:80
+02/18/2026-16:10:42.566969  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:49676
+02/18/2026-16:10:42.566969  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:49676
+02/18/2026-16:10:42.944443  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:49676 -> 10.0.1.10:80
+02/18/2026-16:10:42.944490  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:49676
+02/18/2026-16:10:42.944519  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:49676 -> 10.0.1.10:80
+02/18/2026-16:10:44.506667  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:49774
+02/18/2026-16:10:44.506667  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:49774
+02/18/2026-16:10:44.506681  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:49774 -> 10.0.1.10:80
+02/18/2026-16:10:44.777429  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:49774
+02/18/2026-16:10:44.777458  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:49774 -> 10.0.1.10:80
+02/18/2026-16:10:48.564244  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38348
+02/18/2026-16:10:48.564244  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38348
+02/18/2026-16:10:48.564256  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38348 -> 10.0.1.10:80
+02/18/2026-16:10:48.564298  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38348
+02/18/2026-16:10:48.564321  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38348 -> 10.0.1.10:80
+02/18/2026-16:10:50.111822  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38480
+02/18/2026-16:10:50.111822  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38480
+02/18/2026-16:10:50.407382  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38480 -> 10.0.1.10:80
+02/18/2026-16:10:50.407437  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38480
+02/18/2026-16:10:50.407456  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38480 -> 10.0.1.10:80
+02/18/2026-16:10:52.241715  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38576
+02/18/2026-16:10:52.241715  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38576
+02/18/2026-16:10:52.241726  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38576 -> 10.0.1.10:80
+02/18/2026-16:10:52.241768  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38576
+02/18/2026-16:10:52.241790  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38576 -> 10.0.1.10:80
+02/18/2026-16:10:53.784155  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38658 -> 10.0.1.10:80
+02/18/2026-16:10:53.784222  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38658
+02/18/2026-16:10:53.784222  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38658
+02/18/2026-16:10:54.062451  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38658
+02/18/2026-16:10:54.062469  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38658 -> 10.0.1.10:80
+02/18/2026-16:10:55.888923  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38750
+02/18/2026-16:10:55.888923  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38750
+02/18/2026-16:10:55.888936  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38750 -> 10.0.1.10:80
+02/18/2026-16:10:55.888987  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38750
+02/18/2026-16:10:55.889006  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38750 -> 10.0.1.10:80
+02/18/2026-16:10:57.806049  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34334
+02/18/2026-16:10:57.806049  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34334
+02/18/2026-16:10:57.806062  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34334 -> 10.0.1.10:80
+02/18/2026-16:10:57.806107  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34334
+02/18/2026-16:10:57.806133  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34334 -> 10.0.1.10:80
+02/18/2026-16:10:59.640286  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34448
+02/18/2026-16:10:59.640286  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34448
+02/18/2026-16:10:59.640298  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34448 -> 10.0.1.10:80
+02/18/2026-16:10:59.640337  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34448
+02/18/2026-16:10:59.640372  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34448 -> 10.0.1.10:80
+02/18/2026-16:11:01.481206  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34546
+02/18/2026-16:11:01.481206  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34546
+02/18/2026-16:11:01.481219  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34546 -> 10.0.1.10:80
+02/18/2026-16:11:01.481274  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34546
+02/18/2026-16:11:01.481288  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34546 -> 10.0.1.10:80
+02/18/2026-16:11:03.015429  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34660 -> 10.0.1.10:80
+02/18/2026-16:11:03.015470  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34660
+02/18/2026-16:11:03.015470  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34660
+02/18/2026-16:11:03.294532  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34660 -> 10.0.1.10:80
+02/18/2026-16:11:03.294533  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34660
+02/18/2026-16:11:05.141761  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34760
+02/18/2026-16:11:05.141761  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34760
+02/18/2026-16:11:05.141780  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34760 -> 10.0.1.10:80
+02/18/2026-16:11:05.141842  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34760
+02/18/2026-16:11:05.141895  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34760 -> 10.0.1.10:80
+02/18/2026-16:11:06.676220  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34836 -> 10.0.1.10:80
+02/18/2026-16:11:06.676234  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34836
+02/18/2026-16:11:06.676234  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34836
+02/18/2026-16:11:06.946770  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34836 -> 10.0.1.10:80
+02/18/2026-16:11:06.946778  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34836
+02/18/2026-16:11:08.751054  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:36620
+02/18/2026-16:11:08.751054  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:36620
+02/18/2026-16:11:08.751069  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:36620 -> 10.0.1.10:80
+02/18/2026-16:11:08.751122  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:36620
+02/18/2026-16:11:08.751142  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:36620 -> 10.0.1.10:80
+02/18/2026-16:11:10.667707  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:36714
+02/18/2026-16:11:10.667707  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:36714
+02/18/2026-16:11:10.667720  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:36714 -> 10.0.1.10:80
+02/18/2026-16:11:10.667770  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:36714
+02/18/2026-16:11:10.667789  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:36714 -> 10.0.1.10:80
+02/18/2026-16:11:12.221305  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:36830
+02/18/2026-16:11:12.221305  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:36830
+02/18/2026-16:11:12.221316  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:36830 -> 10.0.1.10:80
+02/18/2026-16:11:12.493695  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:36830
+02/18/2026-16:11:12.493713  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:36830 -> 10.0.1.10:80
+02/18/2026-16:12:23.808278  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:60952
+02/18/2026-16:19:14.237623  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:54752
+02/18/2026-16:19:49.873563  [**] [1:2260003:1] SURICATA Applayer Protocol detection skipped [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:45880 -> 10.0.1.10:80
+02/18/2026-16:33:06.112241  [**] [1:1000999:1] FILE-IDENTIFY: ELF Binary File Transfer Detected (Linux Malware?) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.1.10:8080 -> 10.0.3.10:54364
+02/18/2026-16:33:06.112241  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:54364
+02/18/2026-16:33:36.583067  [**] [1:1000999:1] FILE-IDENTIFY: ELF Binary File Transfer Detected (Linux Malware?) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.1.10:80 -> 10.0.3.10:39212
+02/18/2026-16:33:36.583567  [**] [1:2260003:1] SURICATA Applayer Protocol detection skipped [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39212 -> 10.0.1.10:80
+02/19/2026-15:22:34.966669  [**] [1:1000999:1] FILE-IDENTIFY: ELF Binary File Transfer Detected (Linux Malware?) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.1.10:8080 -> 10.0.3.10:53742
+02/19/2026-15:22:34.966669  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:53742
+02/19/2026-15:22:34.970764  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:53742 -> 10.0.1.10:8080
+02/19/2026-15:22:34.970764  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:53742 -> 10.0.1.10:8080
+02/19/2026-15:22:34.970777  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:53742
+02/19/2026-15:22:34.970823  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:53742
+02/19/2026-15:22:34.971102  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:53742 -> 10.0.1.10:8080
+02/19/2026-15:22:34.971102  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:53742 -> 10.0.1.10:8080
+02/19/2026-15:22:34.971159  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:53742
+02/19/2026-15:22:34.978507  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:8080 -> 10.0.3.10:53742
+02/19/2026-15:22:34.980073  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:53742 -> 10.0.1.10:8080
+02/19/2026-15:22:34.980073  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:53742 -> 10.0.1.10:8080
+02/19/2026-15:25:26.178939  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:43536 -> 10.0.1.10:80
+02/19/2026-15:25:26.228416  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:43542
+02/19/2026-15:25:41.226799  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:43.310387  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:44.961669  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:47.339593  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:49.242479  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:52.017732  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:54.161819  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:55.573002  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:55.773426  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:56.014355  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:44072
+02/19/2026-15:25:56.014355  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:44072
+02/19/2026-15:25:56.014372  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:44072 -> 10.0.1.10:80
+02/19/2026-15:25:56.015959  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:44072 -> 10.0.1.10:80
+02/19/2026-15:25:56.090745  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:44072
+02/19/2026-15:25:56.090745  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:44072
+02/19/2026-15:25:56.092441  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:44072 -> 10.0.1.10:80
+02/19/2026-15:25:56.092544  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:44072
+02/19/2026-15:25:57.330321  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:25:58.398649  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:10.578989  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:10.783404  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:47624 -> 10.0.1.10:80
+02/19/2026-15:26:10.783432  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47624
+02/19/2026-15:26:10.783432  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47624
+02/19/2026-15:26:10.784597  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:47624 -> 10.0.1.10:80
+02/19/2026-15:26:10.787498  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47624
+02/19/2026-15:26:10.787498  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47624
+02/19/2026-15:26:10.818419  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:47624 -> 10.0.1.10:80
+02/19/2026-15:26:10.818511  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47624
+02/19/2026-15:26:12.010124  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:13.008309  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:13.781777  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:47634 -> 10.0.1.10:80
+02/19/2026-15:26:13.781792  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47634
+02/19/2026-15:26:13.781792  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47634
+02/19/2026-15:26:13.782848  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:47634 -> 10.0.1.10:80
+02/19/2026-15:26:13.784388  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47634
+02/19/2026-15:26:13.784388  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47634
+02/19/2026-15:26:13.788946  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:47634 -> 10.0.1.10:80
+02/19/2026-15:26:13.844921  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47634
+02/19/2026-15:26:13.844921  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47634
+02/19/2026-15:26:14.004934  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:47634 -> 10.0.1.10:80
+02/19/2026-15:26:14.005026  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47634
+02/19/2026-15:26:14.173033  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:16.282788  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:18.249699  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:20.602725  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:23.040727  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:25.371699  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:26.697642  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:28.434667  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:29.590449  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:32.117352  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:56798 -> 10.0.1.10:80
+02/19/2026-15:26:32.117350  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:56798
+02/19/2026-15:26:32.117350  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:56798
+02/19/2026-15:26:32.118274  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:56798 -> 10.0.1.10:80
+02/19/2026-15:26:32.194236  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:56798 -> 10.0.1.10:80
+02/19/2026-15:26:32.194320  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:56798
+02/19/2026-15:26:39.622743  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:42.606633  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:26:44.890236  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:43542 -> 10.0.1.10:80
+02/19/2026-15:30:48.525102  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:34364 -> 10.0.1.10:80
+02/19/2026-15:30:48.572476  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:34374
+02/19/2026-15:31:00.521627  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:01.992848  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:04.636787  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:06.331788  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:08.906311  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:10.337799  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:10.640435  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:12.319783  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:12.688489  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:13.319260  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:14.512557  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:16.811759  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:17.887871  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:19.010292  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:20.785743  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:30.644677  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:33.121662  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:34.722671  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:37.589701  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:38.730649  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:41.128427  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:41.890008  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39734 -> 10.0.1.10:80
+02/19/2026-15:31:41.890065  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39734
+02/19/2026-15:31:41.890065  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39734
+02/19/2026-15:31:41.891015  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39734 -> 10.0.1.10:80
+02/19/2026-15:31:41.896703  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39734
+02/19/2026-15:31:41.896703  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39734
+02/19/2026-15:31:41.903911  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39734 -> 10.0.1.10:80
+02/19/2026-15:31:41.948295  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39734
+02/19/2026-15:31:41.948295  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39734
+02/19/2026-15:31:42.103489  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:39734 -> 10.0.1.10:80
+02/19/2026-15:31:42.103569  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:39734
+02/19/2026-15:31:42.773711  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:45.259657  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:47.664429  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:47.668669  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:48.710935  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:48.778791  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:48.892474  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:50.218467  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:50.308798  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:50.532498  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:50.737263  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:50.938806  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:51.117913  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:51.208834  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:51.252748  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:51.321517  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:51.995678  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:52.176514  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:31:53.484687  [**] [1:2210027:3] SURICATA STREAM ESTABLISHED SYN resend with different seq [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:47634 -> 10.0.1.10:80
+02/19/2026-15:31:53.484710  [**] [1:2210023:3] SURICATA STREAM ESTABLISHED SYNACK resend with different ACK [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:47634
+02/19/2026-15:31:53.639756  [**] [1:2210027:3] SURICATA STREAM ESTABLISHED SYN resend with different seq [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:56798 -> 10.0.1.10:80
+02/19/2026-15:31:53.639773  [**] [1:2210023:3] SURICATA STREAM ESTABLISHED SYNACK resend with different ACK [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:56798
+02/19/2026-15:31:53.639826  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:56798 -> 10.0.1.10:80
+02/19/2026-15:31:53.639840  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:56798
+02/19/2026-15:31:58.743892  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:08.937593  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:09.955658  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:12.637628  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:15.080634  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:16.132633  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:17.844689  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:18.997681  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:20.385773  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:21.461045  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:32.668622  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:33.372855  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:33.892135  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:34.431208  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:34.903767  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:34.970637  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:35.061722  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:35.172731  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:35.353069  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:35.713740  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:35.781898  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:35.826699  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:36.838062  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:37.018907  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:37.131926  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:37.244084  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:38.282704  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:38.322842  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:39.989916  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:41.552661  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:42.803679  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:45.299573  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:47.710637  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:48.987538  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:49.329951  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:49.332423  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:50.849665  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:32:52.575631  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:03.299703  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:05.299676  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:07.566662  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:09.756671  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:12.569672  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:14.391688  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:15.667621  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:18.401665  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:21.183663  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:23.949669  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:39.167756  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:40.215695  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:42.592709  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:44.118004  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:46.762684  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:49.605737  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:51.049708  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:33:53.126774  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:04.830664  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:06.688725  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:08.124730  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:10.404685  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:11.581658  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:13.901196  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:15.824733  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:18.793730  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:21.490624  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:22.783669  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:24.784591  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:34374 -> 10.0.1.10:80
+02/19/2026-15:34:37.694567  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:39.565828  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:40.648712  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:43.302655  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:45.689753  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:48.518689  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:50.930674  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:52.589672  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:54.215726  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:55.445795  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:34:56.546665  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:09.296725  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:11.167632  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:12.974658  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:15.833680  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:18.335608  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:20.560028  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:23.219640  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:24.448675  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:26.789858  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:38.790739  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:40.826867  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:43.216186  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:44.533651  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:46.960047  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:49.582737  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:51.552624  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:53.314657  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:55.989690  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:57.076690  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:35:58.725732  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:10.597656  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:13.119632  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:14.673660  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:17.206671  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:20.186610  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:22.011735  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:23.965640  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:25.723693  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:28.607695  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:30.168661  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:41.952703  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:43.917386  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:45.585736  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:47.120646  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:48.486660  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:51.438576  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:54.056665  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:55.290112  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:36:57.309603  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:00.117578  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:11.104209  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:12.762734  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:13.954638  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:15.258686  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:16.730640  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:18.380718  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:20.151676  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:22.018687  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:23.913654  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:26.168771  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:28.298760  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:30.032659  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:31.539610  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:46.173605  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:47.216727  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:49.774740  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:52.209578  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:54.641664  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:56.294689  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:37:58.818653  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:01.780681  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:16.353728  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:17.370835  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:20.058726  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:22.021672  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:23.617697  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:26.546651  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:28.169652  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:30.893732  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:33.076571  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:46.377710  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:47.721605  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:50.353617  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:52.664604  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:54.004719  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:55.373680  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:57.297681  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:38:59.089655  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:00.874655  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:02.982638  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:04.869662  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:17.428637  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:18.451624  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:21.003722  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:23.476725  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:24.520851  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:27.217687  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:29.025651  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:31.194660  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:34.142632  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:35.583671  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:48.196751  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:49.681736  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:52.217653  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:53.533604  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:54.955684  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:39:57.686649  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:00.618711  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:03.613698  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:05.165721  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:06.738662  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:20.203733  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:22.087654  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:23.628710  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:26.532635  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:29.311675  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:30.868706  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:32.358679  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:33.517673  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:34.984966  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:37.833741  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:48.978730  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:51.644625  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:53.226665  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:55.524729  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:57.119662  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:40:59.713701  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:00.764757  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:03.592435  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:06.187684  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:07.541340  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:09.238644  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:20.894656  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:22.321990  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:24.614711  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:27.316672  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:29.191613  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:31.789660  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:33.110669  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:35.691570  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:38.581640  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:39.772657  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:50.971721  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:53.407668  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:55.991803  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:41:56.488333  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:49708 -> 10.0.1.10:80
+02/19/2026-15:46:14.227982  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:51420 -> 10.0.1.10:80
+02/19/2026-15:46:14.236416  [**] [1:1000850:1] LIV-1: Sliver C2 Synthetic Dictionary Words in POST Body [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51442 -> 10.0.1.10:80
+02/19/2026-15:46:14.274455  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:51428
+02/19/2026-15:46:25.827568  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:27.636645  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:29.976684  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:32.255665  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:34.911779  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:37.688232  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:39.268671  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:42.051653  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:43.642688  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:46.314651  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:52.267959  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:55442
+02/19/2026-15:46:52.267959  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:55442
+02/19/2026-15:46:52.267977  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:55442 -> 10.0.1.10:80
+02/19/2026-15:46:52.269628  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:55442 -> 10.0.1.10:80
+02/19/2026-15:46:52.297331  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:55442 -> 10.0.1.10:80
+02/19/2026-15:46:52.297396  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:55442
+02/19/2026-15:46:58.166655  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:46:59.588646  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:01.487599  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:03.126674  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:04.978628  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:07.118791  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:08.275897  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:08.451882  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:08.456163  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:08.460662  [**] [1:1000850:1] LIV-1: Sliver C2 Synthetic Dictionary Words in POST Body [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:46484 -> 10.0.1.10:80
+02/19/2026-15:47:11.018694  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:13.134638  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:14.372471  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:14.459012  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:14.524798  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:14.531603  [**] [1:1000850:1] LIV-1: Sliver C2 Synthetic Dictionary Words in POST Body [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:46518 -> 10.0.1.10:80
+02/19/2026-15:47:17.004693  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:29.059818  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:29.218705  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:29.225627  [**] [1:1000850:1] LIV-1: Sliver C2 Synthetic Dictionary Words in POST Body [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:36498 -> 10.0.1.10:80
+02/19/2026-15:47:32.159662  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:33.459684  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:35.044560  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:35.053015  [**] [1:1000850:1] LIV-1: Sliver C2 Synthetic Dictionary Words in POST Body [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:46206 -> 10.0.1.10:80
+02/19/2026-15:47:35.292598  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:35.404878  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:35.407415  [**] [1:1000850:1] LIV-1: Sliver C2 Synthetic Dictionary Words in POST Body [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:46230 -> 10.0.1.10:80
+02/19/2026-15:47:35.494921  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:35.584925  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:35.588649  [**] [1:1000850:1] LIV-1: Sliver C2 Synthetic Dictionary Words in POST Body [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:46252 -> 10.0.1.10:80
+02/19/2026-15:47:36.754751  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:38.640674  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-15:47:39.568039  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:51428 -> 10.0.1.10:80
+02/19/2026-16:00:38.548518  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.3.10:38794 -> 10.0.1.10:80
+02/19/2026-16:00:38.594563  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.1.10:80 -> 10.0.3.10:38802
+02/19/2026-16:00:49.661712  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:38802 -> 10.0.1.10:80
+02/19/2026-16:00:51.034662  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:38802 -> 10.0.1.10:80
+02/19/2026-16:00:51.034685  [**] [1:1000705:2] NO CONTENT (204 Response) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.1.10:80 -> 10.0.3.10:38802
+02/19/2026-16:00:52.939667  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:38802 -> 10.0.1.10:80
+02/19/2026-16:00:52.939689  [**] [1:1000705:2] NO CONTENT (204 Response) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.1.10:80 -> 10.0.3.10:38802
+02/19/2026-16:00:54.446769  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:38802 -> 10.0.1.10:80
+02/19/2026-16:00:54.446802  [**] [1:1000705:2] NO CONTENT (204 Response) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.1.10:80 -> 10.0.3.10:38802
+02/19/2026-16:00:56.985784  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:38802 -> 10.0.1.10:80
+02/19/2026-16:00:56.985806  [**] [1:1000705:2] NO CONTENT (204 Response) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.1.10:80 -> 10.0.3.10:38802
+02/19/2026-16:00:58.115764  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:38802 -> 10.0.1.10:80
+02/19/2026-16:00:58.115786  [**] [1:1000705:2] NO CONTENT (204 Response) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.1.10:80 -> 10.0.3.10:38802
+02/19/2026-16:01:01.002718  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:38802 -> 10.0.1.10:80
+02/19/2026-16:01:01.002741  [**] [1:1000705:2] NO CONTENT (204 Response) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.1.10:80 -> 10.0.3.10:38802
+02/19/2026-16:01:01.068595  [**] [1:1000703:2] LAB Possible HTTP beaconing (High Frequency) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.3.10:38802 -> 10.0.1.10:80
