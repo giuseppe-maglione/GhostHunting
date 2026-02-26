@@ -1,0 +1,19 @@
+alert tcp any any -> any any
+(msg:"LVL-0: Possible Metasploit C2 (ELF Binary File Transfer)";
+flow:established; content:"|7F 45 4C 46|"; depth:4;
+classtype:trojan-activity; sid:1000999; rev:1;)
+alert http any any -> any 80
+(msg:"LVL-1: Possible Sliver HTTP C2 (Synthetic Dictionary Words)";
+flow:to_server,established; http.method; content:"POST"; http.request_body;
+pcre:"/(CIRCUMVALLATING|SPERMATOPHYTE|LABORIOUSNESS|CAVERNOUSLY|...)/i";
+classtype:trojan-activity; sid:1000850; rev:1;)
+alert http any any -> any any
+(msg:"LVL-1: Possible Sliver HTTP C2 beaconing (High Frequency of No Content)";
+flow:established,to_client; http.stat_code; content:"204";
+detection_filter:track by_dst, count 5, seconds 30;
+classtype:trojan-activity; sid:1000705; rev:2;)
+alert tls any any => any any
+(msg:"LIV-3: Sliver C2 mTLS (Exact JA3/JA3S Match)";
+ja3.hash; content:"2196848d251b217de8b2c037e356c11d";
+ja3s.hash; content:"f4febc55ea12b31ae17cfb7e614afda8";
+classtype:trojan-activity; sid:1000803; rev:3;)
