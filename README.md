@@ -11,7 +11,6 @@ Analysis of the behavior of a C2 framework (Sliver) in a network monitored by a 
 - [Analysis](#-analysis)
 - [Conclusions](#-conclusions)
 - [Authors](#-authors)
-- [Art](#-art)
 
 ## 📖 Description
 
@@ -65,8 +64,6 @@ The project explores the evolution of network threats through four scenarios of 
 ## 👥 Authors
 *  **Annarita Fabiano**
 *  **Giuseppe Maglione**
-
-# Art
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⢀⣶⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠀⢀⣴⡇⢠⣾⡇⠀⣠⣴⣿⠁⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
